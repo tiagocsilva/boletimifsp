@@ -1,0 +1,46 @@
+{
+  "name": "boletimifsp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/viewpager": "^1.1.6",
+    "color": "^3.1.2",
+    "react": "16.8.3",
+    "react-art": "^16.8.6",
+    "react-epic-spinners": "^0.3.0",
+    "react-native": "0.59.2",
+    "react-native-dropdownalert": "^4.0.2",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-linear-gradient": "^2.5.4",
+    "react-native-loader": "^1.2.1",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-svg": "^9.4.0",
+    "react-native-svg-animations": "^0.1.7",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^3.6.0",
+    "socket.io-client": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.0",
+    "@babel/runtime": "7.4.2",
+    "@react-native-community/eslint-config": "0.0.3",
+    "babel-jest": "24.5.0",
+    "eslint": "5.15.3",
+    "jest": "24.5.0",
+    "metro-react-native-babel-preset": "0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts/"
+    ]
+  }
+}
